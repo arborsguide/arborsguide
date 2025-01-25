@@ -1,3 +1,8 @@
 html,body{margin:0;padding:0}
 
-div#header{background:url(myfavoritepicture.png) top #000; background-size: cover; background-repeat:no-repeat; height: 200px}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
