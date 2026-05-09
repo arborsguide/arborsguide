@@ -7,7 +7,6 @@ section{display: flex;}
 article{flex: 1}
 nav{margin:0%; flex: 1; padding-top: 7px; padding-left: 20px; padding-right: 20px;padding-bottom: 10px; max-width: 100px; border-right-style: solid; border-width: 2px; border-right-color: #001019;list-style-type: none;}
 li{font-size: 12px;}
-h1{vertical-align: middle;}
 h2{font-size: 28px;}
 h3{font-size: 20px;}
 
@@ -18,8 +17,65 @@ a:visited{color:#304733}
     img{max-width: 80%;}
 }
 
+.pagesarray{
+    padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;
+}
+
+.cornergif{
+    float:right; margin-top: -22px; margin-right: 10px; width: 80px; height: 80px;
+}
+
 .hemifooter{
     p{margin: 0%; padding-left: 20px; border-top-style: solid; border-width: 2px; border-top-color: #001019; padding-top: 10px;padding-bottom: 10px;font-size: 10px;}
 }
+
+.gallery{
+    display: grid;
+    background-color: blue;
+    grid-template-columns: 300px;
+    grid-template-rows: 175px;
+    place-items: center;
+    padding: 0px;
+}
+
+.gallery div{
+    background-color: red;
+    margin: 0px;
+    padding: 0px;
+}
+.gallery img{
+    /* width: 300px; height: 175px; */
+    width: 100%;
+    height: auto;
+    margin:auto;
+    justify-content: center;
+    padding: 0px;
+    object-fit: cover;
+}
+.gallery p{
+    text-align: center;
+    background-color: green;
+}
+
+/* .rectanglelink{
+    display: inline-block;
+    border: 2px solid red;
+    width: 300px;
+    font-size: 0;
+}
+.rectanglelink img{
+    width: 300px; height: 175px;
+    padding: 0%;
+    border: 2px solid green;
+    text-align: center;
+}
+.rectanglelink p{
+    border: 2px solid blue;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    display: block;
+    font-size: 12;
+} */
 
 footer{font-family: Arial, Helvetica, sans-serif;color:#ffffff;background:#001019;max-height: 5%; padding: 5px;padding-left: 20px;}
